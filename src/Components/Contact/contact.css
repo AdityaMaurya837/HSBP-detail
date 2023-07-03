@@ -1,0 +1,81 @@
+.contact-container {
+    margin-top: 2rem;
+    height: 80vh;
+    justify-content: center;
+    background-image: url(../img/MaskGroup2.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.contact-content {
+    display: flex;
+    padding: 30px 50px 30px 50px;
+    text-align: left;
+}
+
+.contact-content-text{
+    width: 27%;
+    margin: 10px;
+}
+
+.contact-content-link1{
+    width: 27%;
+}
+
+.contact-content-link1 ul, .contact-content-link1 ul li a,
+.contact-content-link2 ul, .contact-content-link2 ul li a
+{
+    list-style-type: none;
+    text-decoration: none;
+    color: #666;
+    line-height: 1.5rem;
+    font-weight: 600;
+}
+.contact-content-link1 ul, .contact-content-link1 ul li a:hover,
+.contact-content-link2 ul, .contact-content-link2 ul li a:hover
+{
+    color:#8B2E5D;
+}
+.contact-content-link2{
+    width: 27%;
+}
+
+.contact-content-socialMedia{
+    width: 19%;
+}
+
+.city-name{
+    padding: 0 50px 0 50px;
+}
+.city-name .line{
+    width: 100%;
+    height: 2px;
+    background-color: #666;
+    opacity: 0.3;
+}
+
+.margin-bottom{
+    margin-top: -1rem;
+}
+
+.city-name-content{
+    color: #666;
+    line-height: 10px;
+    text-align: center;
+}
+
+.icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+  }
+  
+  .icon {
+    font-size: 30px;
+    margin-right: 10px;
+    position: relative;
+    right: 28px;
+   }
+  

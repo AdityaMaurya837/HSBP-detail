@@ -1,0 +1,236 @@
+.reception{
+    margin-top: 1.5rem;
+    background: #ffedec;
+    height:auto;
+    border-radius: 15px;
+    padding: 30px;
+}
+
+.reception .bridal-img img{
+    width: 350px;
+    height: 500px;
+}
+
+.redtag{
+    position: relative;
+    right: 0;
+}
+
+.reception-main-heading{
+   display: flex;
+}
+
+.reception-main-heading img{
+    width: 200px;
+    position: absolute;
+    right: 0;
+    top: -2.9rem;
+}
+
+.reception-main-heading h2{
+    color: #8b2e5d;
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-top: -2.5px;
+}
+
+.reception-second-content{
+    margin-top: -1.5rem;
+}
+
+.reception-second-content h3{
+    font-size:2rem;
+    font-weight: 500;
+}
+
+
+.reception-second-content p{
+    font-size:1rem;
+    margin-top: -2rem;
+    font-weight: 300;
+    color: #666;
+}
+
+.reception-second-content p span{
+    color: rgb(103, 103, 243);
+    font-weight: 400;
+}
+
+.product{
+    display: flex;
+    background: #8b2e5d;
+    padding: 20px;
+    border-radius: 12px;
+    justify-content: space-between;
+}
+
+.product p{
+   color: #fff;
+   font-size: 1rem;
+}
+
+.price{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.price .rupee{
+    display: flex;
+}
+
+.price .rupee p:first-child{
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.price .rupee p:last-child{
+    color: #666;
+    font-size: 1rem;
+    margin-left: 10px;
+    text-decoration: line-through;
+}
+
+.price button{
+    background: transparent linear-gradient(253deg, #993680 0%, #2F1A59 81%) 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+    opacity: 1;
+    height: 30px;
+    width: 150px;
+    border: none;
+    color: #fff;
+    font:normal normal medium 20px/19px Poppins ;
+}
+
+.included-product{
+    margin-top: 1.5rem;
+    background: #ffedec;
+    height:auto;
+    border-radius: 15px;
+    padding: 30px;
+    justify-content: space-between;
+}
+
+.included-product-content h4{
+    color: #8b2e5d;
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.included-product-content{
+  background: #fff;
+  padding: 20px;
+  line-height: 10px;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.image-gallery{
+    background: #eeeeee;
+    padding: 20px;
+    line-height: 10px;
+    border-radius: 15px;
+    margin-top: 2rem;
+    justify-content: center;
+}
+
+.image-gallery-img img{
+    justify-content: space-between; 
+    padding: 24px;
+
+}
+
+.image-gallery-img h2{
+    color: #8b2e5d;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.faq{
+    margin-top: 2rem;
+    background: #fff;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.faq h2{
+    color: #8b2e5d;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+
+.faq-table .ant-table-cell{
+    border: 1px solid #666;
+    border-radius: 5px;
+}
+
+.faq-table-card{
+    background: #eeeeee;
+    margin-top: 8rem;
+    width: 500px;
+    line-height: 1.6rem;
+}
+
+.location {
+    height: 400px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 10px;
+    justify-items: center;
+    align-items: center;
+  }
+  
+  .location-card {
+    position: relative;
+    width: 200px;
+    height: 320px;
+    border-radius: 15px;    
+    opacity: 1;
+    text-align: center;
+    padding: 10px;
+    background: #fff;
+    box-shadow: 20px 20px 15px #00000029;
+    background-size: contain;
+    background-position: top center;
+    background-repeat: no-repeat;
+  }
+
+  .location-shop .heading h1{
+    color: #8B2E5D;
+
+  }
+  
+  .location-shop h3{
+    color: #8B2E5D;
+    font-weight: 500;
+  }
+  
+  .location-contant{
+    margin-top: 12rem;
+    justify-content: center;
+    display: flex;
+  }
+  
+  .location-contant p{
+     font-size: 11px;
+     color: #707070;
+  }
+  
+  .location-contant .location-contant-heading h4{
+    color: #B13592;
+  }
+  
+  .location-contant .location-contant-heading p{
+    margin-top: -10px;
+  }
+  
+  .location-contant a{
+    text-decoration: none;
+  }
+
+  .location-contant .readmore{
+    text-decoration: none;
+    color: #5500ff !important;
+  }

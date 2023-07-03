@@ -1,0 +1,26 @@
+.menu-content {
+    width: 100%;
+    margin-top: 1rem;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url('../img/menuImg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100px;
+}
+
+.nav-link{
+    font-size: 1.7rem;  
+    cursor: pointer;
+    color: black;
+    transition: .7s;
+}
+
+.nav-link:hover{
+   color: #fff;
+   font-size:2.2rem;
+   font-weight: 900;
+   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
